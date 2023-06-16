@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:kinetic
 RUN apt update && apt install -y socat && mkdir /harmony
 WORKDIR /harmony
 COPY run.sh ./run.sh
