@@ -1,4 +1,4 @@
-FROM python:3.8.18-alpine
+FROM python:3.12.3-alpine
 COPY flag.txt /flag.txt
 WORKDIR /app
 COPY requirements.txt requirements.txt
